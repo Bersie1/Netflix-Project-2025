@@ -1,0 +1,72 @@
+/* Container for each row of movies */
+.row {
+  width: 100%;
+  display: flex;
+  max-width: 1440px;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  /* padding: 0 2vw; */
+  box-sizing: border-box;
+}
+
+/* .rows {
+  padding: 0 2vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+} */
+
+/* Title styling */
+.row h1 {
+  font-size: 1.5rem;
+  /* margin: 20px 0 10px 0; */
+  width: 100%;
+  text-align: left;
+  padding-top: 100px;
+ 
+}
+
+/* Container for movie posters (scrollable row) */
+.row_posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* padding: 20px 0; */
+  gap: 20px;
+  width: 100%;
+  /* box-sizing: border-box; */
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for WebKit browsers */
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+/* Individual movie poster */
+.row_poster {
+  max-height: 150px;
+  width: 100%;
+  object-fit: contain;
+  transition: transform 450ms;
+  border-radius: 5px;
+  /* cursor: pointer; */
+}
+
+/* Hover effect */
+.row_poster:hover {
+  transform: scale(1.08);
+}
+
+/* Larger poster size for original content */
+.row_posterLarge {
+  max-height: 250px;
+}
+
+/* Slightly stronger hover for large posters */
+.row_posterLarge:hover {
+  transform: scale(1.09);
+}
