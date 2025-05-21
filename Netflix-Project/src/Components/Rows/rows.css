@@ -10,14 +10,14 @@
   box-sizing: border-box;
 }
 
-/* .rows {
+.rows {
   padding: 0 2vw;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
-} */
+}
 
 /* Title styling */
 .row h1 {
@@ -25,7 +25,7 @@
   /* margin: 20px 0 10px 0; */
   width: 100%;
   text-align: left;
-  padding-top: 100px;
+  /* padding-top: 20px; */
  
 }
 
@@ -35,7 +35,7 @@
   overflow-x: scroll;
   overflow-y: hidden;
   /* padding: 20px 0; */
-  gap: 20px;
+  gap: 10px;
   width: 100%;
   /* box-sizing: border-box; */
   scroll-behavior: smooth;

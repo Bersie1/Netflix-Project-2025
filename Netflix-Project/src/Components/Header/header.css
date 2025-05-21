@@ -17,12 +17,12 @@
     background-color: rgb(20, 20, 20);
   }
   
-  /* .header_container {
+  .header_container {
     width: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  } */
+  } 
   .header-container {
     /* width: 100%; */
     max-width: 1440px;

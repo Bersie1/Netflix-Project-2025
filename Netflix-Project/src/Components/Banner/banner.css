@@ -1,15 +1,16 @@
 .banner {
   margin-top: -10vh;
   height: 100vh;
-  margin-bottom: -80px;
+  /* margin-bottom: -80px; */
   color: white;
   object-fit: contain;
   background-size: cover;
   background-position: center center;
   display: flex;
   justify-content: center;
-  padding: 0 2vw;
+  /* padding: 0 2vw; */
   box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 .banner_contents {
