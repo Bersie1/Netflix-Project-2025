@@ -1,4 +1,4 @@
-const API_KEY = "ec989f0bedde5daaaaed42db1c333acb";
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US=`,
